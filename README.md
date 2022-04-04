@@ -4,7 +4,7 @@
 ~~~
 WS: Created By MARK46 (https://github.com/MARK-46)
     31-03-2022 12:45:23
-
+~~~
 
 # Example
 ```javascript
@@ -20,17 +20,9 @@ const ws = new MWsClient({
     }
 });
 
-ws.on('connected', (id, clientInfo) => {
-    
-});
-
-ws.on('disconnected', (code, reason) => {
-
-});
-
-ws.on('signal', (code, data) => {
-
-});
+ws.on('connected', (id, clientInfo) => { });
+ws.on('disconnected', (code, reason) => { });
+ws.on('signal', (code, data) => { });
 
 ws.connect();
 ```
